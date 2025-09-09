@@ -2,13 +2,16 @@
 
 
 ## Table of Contents
-- [Project Overview](#project Overview)
-- [Data Sources](#data Sources)
-- [Tools & Technologies](#Tools & Technologies)
-- [Data Cleaning & Preparation](#Data cleaning & Preparation)
-- [Outcome](#Outcome:)
-- [Result & Key Findings](#Result & Key Findings)
+
+- [Project Overview](#Project-Overview)
+- [Data Sources](#data-Sources)
+- [Tools & Technologies](#Tools-&-Technologies)
+- [Data Cleaning & Preparation](#Data-cleaning-&-Preparation)
+- [Outcome](#Outcome)
+- [Result & Key Findings](#Result-&-KeyFindings)
 - [Recommendations](#recommendations)
+
+  
 ### 📌 Project Overview
 
 This project focuses on Athletes’ Health & Injury Analysis, stepping into the role of a Sports Performance Analyst.
