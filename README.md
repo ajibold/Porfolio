@@ -1,4 +1,6 @@
-# Athletes Health & Injury Analysis
+# 🏅Athletes Health & Injury Analysis
+
+## [Dashboard link](https://app.powerbi.com/view?r=eyJrIjoiODFmZjM3ZjMtOGEzYi00M2UyLTkxZmYtZDg5ODk0ZmY0YmI2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
 
 
 ## Table of Contents
@@ -18,6 +20,14 @@ This project focuses on Athletes’ Health & Injury Analysis, stepping into the 
 The goal is to uncover injury trends, provide data-driven recommendations, and gain a deeper understanding of the factors influencing player health and performance.
 
 The dataset contains thousands of injury events across players, clubs, and locations.
+
+<img width="593" height="333" alt="Overview" src="https://github.com/user-attachments/assets/05a4451c-5837-4a2f-aa79-447cb2c15267" />
+<img width="593" height="332" alt="Analysis" src="https://github.com/user-attachments/assets/638d1372-64ee-402d-ab0d-ab905083f496" />
+<img width="586" height="334" alt="Profile" src="https://github.com/user-attachments/assets/480b4049-083f-446d-9e85-8547b1f95c9a" />
+<img width="595" height="334" alt="overview info" src="https://github.com/user-attachments/assets/1b737c7c-e310-4827-a1c6-dab1e47fb58c" />
+<img width="592" height="338" alt="Analysis info" src="https://github.com/user-attachments/assets/e27e3a9a-82a5-4054-8bfa-17cc5d76438a" />
+
+
 
 ### 📂 Data Sources
 
@@ -56,13 +66,16 @@ The primary key column (InjuryID) contained values like INJ-00004, causing data 
 1. Adjusting the Primary Key
 
 -- Drop existing PK
+```sql
 ALTER TABLE FactInjuries  
 ALTER COLUMN InjuryID VARCHAR(20) NOT NULL;
+```
 
 -- Re-apply PK
+```sql
 ALTER TABLE FactInjuries  
 ADD CONSTRAINT PK_FactInjuries PRIMARY KEY (InjuryID);
-
+```
 
 2. Using a Staging Table
 
@@ -75,18 +88,24 @@ Moved to FactInjuries after validation
 Examples:
 
 -- Remove duplicates
+```sql
 WITH CTE_Duplicates AS (
     SELECT *, ROW_NUMBER() OVER (PARTITION BY InjuryID ORDER BY InjuryID) AS rn
     FROM Staging_FactInjuries
 )
 DELETE FROM CTE_Duplicates WHERE rn > 1;
+```
 
 -- Remove NULLs
+```sql
 DELETE FROM Staging_FactInjuries WHERE InjuryID IS NULL;
+```
 
 -- Trim spaces
+```sql
 UPDATE Staging_FactInjuries
 SET InjuryID = LTRIM(RTRIM(InjuryID));
+```
 
 
 ### ✅ Outcome:
