@@ -7,8 +7,13 @@ This data analysis project focuses on Athletes’ Health & Injury Analysis. Step
 The primary data source used for this projects is the "Challenge_29_Athlete Health & Injury Dataset.XLSX" file, containing detailed 
 
 ### Tools
-Excel - Data Cleaning
-SQL Server Import and Export Wizard - Data Importation into Excel.
-SQL Server - Data Analysis
-Power BI - Visualization , Dashboards and Reports Creation. 
+- Excel - Data Cleaning
+- SQL Server Import and Export Wizard - Data Importation into Excel.
+- SQL Server - Data Analysis
+- Power BI - Visualization , Dashboards and Reports Creation.
+
+### Data Cleaning/Preparation
+
+
+
 
