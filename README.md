@@ -1,8 +1,9 @@
 # 🏅Athletes Health & Injury Analysis
+---
 
 ## [Dashboard link](https://app.powerbi.com/view?r=eyJrIjoiODFmZjM3ZjMtOGEzYi00M2UyLTkxZmYtZDg5ODk0ZmY0YmI2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
 
-
+---
 ## Table of Contents
 
 - [Project Overview](#Project-Overview)
@@ -13,13 +14,15 @@
 - [Result & Key Findings](#Result-&-KeyFindings)
 - [Recommendations](#recommendations)
 
-  
+---  
 ### 📌 Project Overview
 
 This project focuses on Athletes’ Health & Injury Analysis, stepping into the role of a Sports Performance Analyst.
 The goal is to uncover injury trends, provide data-driven recommendations, and gain a deeper understanding of the factors influencing player health and performance.
 
 The dataset contains thousands of injury events across players, clubs, and locations.
+
+---
 
 <img width="593" height="333" alt="Overview" src="https://github.com/user-attachments/assets/05a4451c-5837-4a2f-aa79-447cb2c15267" />
 <img width="593" height="332" alt="Analysis" src="https://github.com/user-attachments/assets/638d1372-64ee-402d-ab0d-ab905083f496" />
