@@ -23,11 +23,23 @@ The goal is to uncover injury trends, provide data-driven recommendations, and g
 The dataset contains thousands of injury events across players, clubs, and locations.
 
 ---
-
+Page 1 - Overview
 <img width="593" height="333" alt="Overview" src="https://github.com/user-attachments/assets/05a4451c-5837-4a2f-aa79-447cb2c15267" />
+
+
+Page 2 - Analysis
 <img width="593" height="332" alt="Analysis" src="https://github.com/user-attachments/assets/638d1372-64ee-402d-ab0d-ab905083f496" />
+
+
+Page 3 - Profile
 <img width="586" height="334" alt="Profile" src="https://github.com/user-attachments/assets/480b4049-083f-446d-9e85-8547b1f95c9a" />
+
+
+Overview info
 <img width="595" height="334" alt="overview info" src="https://github.com/user-attachments/assets/1b737c7c-e310-4827-a1c6-dab1e47fb58c" />
+
+
+Analysis info
 <img width="592" height="338" alt="Analysis info" src="https://github.com/user-attachments/assets/e27e3a9a-82a5-4054-8bfa-17cc5d76438a" />
 
 
